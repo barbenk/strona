@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>ZADANIE FORMULARZ</title>
+</head>
+<body bgcolor="#CCCCCC">
+
+   
+<div align="center">
+        
+<h1 align="center">Formularz</h1>
+
+<h3>Imię&#160;&#160;<input type="text" id="imie" name="imie"></h3>
+<h3>Drugie Imię&#160;&#160;<input type="text" id="drugie_imie" name="drugie_imie"></h3>
+<h3>Nazwisko&#160;&#160;<input type="text" id="nazwisko" name="nazwisko"></h3>
+
+<br><br><br>
+
+  <h2>1. Z jakiego urządzenia korzystasz najczęściej?</h2>
+ <p>
+ <input type="checkbox" name="urzadzenie" value="kom"> Komputer
+ <input type="checkbox" name="urzadzenie" value="laptop"> Laptop
+ <input type="checkbox" name="urzadzenie" value="smartfon"> Smartfon
+ </p> 
+
+ <h2> 2. Do jakich celów najczęściej używasz sprzętu elektronicznego?</h2>
+ <p>
+ <input type="checkbox" name="cel" value="nauka"> Nauka i edukacja
+ <input type="checkbox" name="cel" value="rozrywka"> Rozrywka
+ <input type="checkbox" name="cel" value="praca"> Praca
+ </p>
+        
+ <br><br><br>
+
+ <h2>3. Ile czasu dziennie spędzasz przy komputerze?</h2>
+ <p>
+ <input type="radio" name="czas" value="1"> Mniej niż 1 godzinę<br>
+ <input type="radio" name="czas" value="2"> 1–2 godziny<br>
+ <input type="radio" name="czas" value="3"> 2–4 godziny<br>
+ <input type="radio" name="czas" value="4"> Ponad 4 godziny
+  </p> 
+
+ <br><br><br>
+
+ <h2> 4. W jakiej grupie wiekowej / zawodowej się znajdujesz?</h2>
+  <p>
+ <input type="radio" name="grupa" value="uczen"> Uczeń / Student<br>
+ <input type="radio" name="grupa" value="pracownik"> Pracownik etatowy<br>
+ <input type="radio" name="grupa" value="przedsiebiorca"> Przedsiębiorca<br>
+ <input type="radio" name="grupa" value="inne"> Inne
+  </p> 
+
+ <br><br><br>
+
+
+<TD width="300" >  
+<center><font size="5" color="black"><b> 5. Jakiego języka programowania chciałbyś/chciałabyś się nauczyć w najbliższym czasie?</b></font></center><br> 
+                            <center>  <select> 
+                                 <option value="Python">Python</option> 
+                                 <option value="JavaScript">JavaScript</option> 
+                                 <option value="C++ / C#">C++ / C#</option> 
+                                 <option value="Java">Java</option> 
+                                 <option value="Inny">Inny</option> 
+                              </select> </center> 
+                           </TD>  
+
+
+ <br><br><br>
+ <br><br><br>
+  <TR height="100"> 
+           <TD><button onclick="alert('A kuku')" style="height:80px;width:300px">Przycisk 
+niespodzianka</button></TD>  
+           <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px">                    
+</TD>  
+           <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD> 
+        </TR> 
+
+
+</div>
+
+</body>
+</html>
