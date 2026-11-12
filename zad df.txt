@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <table width="65%" border="1" align="center">
+        <tr>
+            <td colspan="3">
+                <iframe scrolling="no" width="1250" height="100" name="obszar_logo" src="naglowek.html" border="0"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> 
+                <b>lewe menu</b> 
+                <ul> 
+                    <li> 
+                        <a href="https://zse.edu.gdansk.pl/" target="obszar_glowny">Strona ZSE</a> 
+                    </li> 
+                    <li> 
+                        <a href="http://www.kuratorium.gda.pl" target="obszar_glowny">Kuratorium</a> 
+                    </li>
+                    <li> 
+                        <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="obszar_glowny">C++</a> 
+                    </li>  
+                    <li> 
+                        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="obszar_glowny">Python</a> 
+                    </li> 
+                </ul>
+            </td>  
+            <td align="center">
+                <iframe width="800" height="380" name="obszar_glowny" src="główny.html" border="0"></iframe>
+            </td>
+            <td align="center"> 
+                <b>prawe menu</b><br>
+                <img src="mapa.gif" alt="tutajwybierajlinki" usemap="#mapa_kowalski" border="0">
+                
+                <map id="mapa_kowalski" name="mapa_kowalski"> 
+                    <area shape="rect" coords="2,3,91,46" href="Plik do pobrania.zip"> 
+                    <area shape="rect" coords="2,50,91,95" href="Tabela_Benkowski1p1.html" target="obszar_glowny"> 
+                    <area shape="circle" coords="48,125,23" href="formularz_twoje_nazwisko.html" target="obszar_glowny"> 
+                    <area shape="poly" coords="46,166,81,225,13,225" href="mailto:mkryniew@ids.gda.pl"> 
+                    <area shape="circle" coords="48,270,23" href="z1_z6_twoje_nazwisko.html" target="obszar_glowny"> 
+                </map> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <iframe scrolling="no" width="1250" height="90" name="obszar_stopka" src="stopka_benkowski.html" border="0"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
